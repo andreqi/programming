@@ -1,0 +1,73 @@
+PROBLEM STATEMENT
+
+Integer coordinates in a two-dimensional plane are assigned letters from a grid g as follows: point (x,y) is assigned g[y%R][x%C], where R and C are the number of rows and columns in g, respectively.  The grid g is given as a vector <string>, where each element is a single row, and g[i][j] is the jth character of the ith element (both 0-indexed).
+
+
+Consider all rays that originate at (0,0) and move outward, crossing integer coordinates where both x and y are greater than or equal to zero.  
+Each ray spells out an infinite sequence of letters - the letters assigned to each coordinate crossed by the ray, in the order they are crossed.
+
+
+You are given a list of words. 
+You must return the number of rays that contain each of the given words.  
+A ray contains a word if the word is a substring of the infinite letter sequence spelled out by the ray.
+Only consider rays that intersect at least one integer coordinate (x,y) such that both 0<=x<=k and 0<=y<=k, where k is given as a parameter.
+In the vector <int> returned, the ith position represents the number of the described rays that contains ith word given in words.
+
+
+DEFINITION
+Class:InfiniteSoup
+Method:countRays
+Parameters:vector <string>, vector <string>, int
+Returns:vector <int>
+Method signature:vector <int> countRays(vector <string> g, vector <string> words, int k)
+
+
+CONSTRAINTS
+-g will contain between 1 and 35 elements, inclusive.
+-Each element of g will contain between 1 and 35 lowercase ('a'-'z') letters, inclusive.
+-All elements of g will contain the same number of characters.
+-words will contain between 1 and 25 elements, inclusive.
+-Each element of words will have between 1 and 50 lowercase ('a'-'z') letters, inclusive.
+-k will be between 1 and 200, inclusive.
+
+
+EXAMPLES
+
+0)
+{"abc","def","ghi"}
+{"abc"}
+2
+
+Returns: {1 }
+
+With k=2, the only five possible possible rays spell "abcabc...", "afhafh...", "aeiaei...", "ahfahf..." and "adgadg...".
+
+1)
+{"abc","def","ghi"}
+{"abc"}
+3
+
+Returns: {2 }
+
+2)
+{"abc","def","ghi"}
+{"abc"}
+4
+
+Returns: {3 }
+
+3)
+{"ccbbc","baabc","ccbab","cbcaa","aacab"}
+{"aaccbaaccbaacc","aabbcaabbcaabbc","babccbabccbabc","aaacaaaacaaaaca",
+ "abbcaabbcaab","ccbbcccbbcccbbc","bbacabbacab","caacccaacccaac",
+ "baaccbaaccbaac","caccbcaccbca"}
+10
+
+Returns: {0, 2, 0, 0, 2, 7, 5, 6, 0, 5 }
+
+4)
+{"abb","bbb","bbb"}
+{"aaa"}
+2
+
+Returns: {0 }

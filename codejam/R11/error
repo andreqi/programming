@@ -1,0 +1,112 @@
+7c7
+< Case #7: 11
+---
+> Case #7: Too Bad
+12c12
+< Case #12: 4
+---
+> Case #12: Too Bad
+14c14
+< Case #14: 14
+---
+> Case #14: Too Bad
+17c17
+< Case #17: 9
+---
+> Case #17: Too Bad
+19c19
+< Case #19: 18
+---
+> Case #19: Too Bad
+23c23
+< Case #23: 17
+---
+> Case #23: Too Bad
+29,33c29,33
+< Case #29: 12
+< Case #30: 13
+< Case #31: 6
+< Case #32: 17
+< Case #33: 16
+---
+> Case #29: Too Bad
+> Case #30: Too Bad
+> Case #31: Too Bad
+> Case #32: Too Bad
+> Case #33: Too Bad
+38c38
+< Case #38: 8
+---
+> Case #38: Too Bad
+45c45
+< Case #45: 10
+---
+> Case #45: Too Bad
+47,48c47,48
+< Case #47: 14
+< Case #48: 17
+---
+> Case #47: Too Bad
+> Case #48: Too Bad
+53,54c53,54
+< Case #53: 20
+< Case #54: 6
+---
+> Case #53: Too Bad
+> Case #54: Too Bad
+57,58c57,58
+< Case #57: 10
+< Case #58: 9
+---
+> Case #57: Too Bad
+> Case #58: Too Bad
+60,61c60,61
+< Case #60: 16
+< Case #61: 14
+---
+> Case #60: Too Bad
+> Case #61: Too Bad
+63c63
+< Case #63: 10
+---
+> Case #63: Too Bad
+68c68
+< Case #68: 20
+---
+> Case #68: Too Bad
+71c71
+< Case #71: 10
+---
+> Case #71: Too Bad
+73,74c73,74
+< Case #73: 8
+< Case #74: 12
+---
+> Case #73: Too Bad
+> Case #74: Too Bad
+79c79
+< Case #79: 12
+---
+> Case #79: Too Bad
+81,82c81,82
+< Case #81: 12
+< Case #82: 10
+---
+> Case #81: Too Bad
+> Case #82: Too Bad
+90c90
+< Case #90: 4
+---
+> Case #90: Too Bad
+92c92
+< Case #92: 14
+---
+> Case #92: Too Bad
+96c96
+< Case #96: 11
+---
+> Case #96: Too Bad
+99c99
+< Case #99: 8
+---
+> Case #99: Too Bad
