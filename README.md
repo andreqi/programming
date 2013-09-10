@@ -1,4 +1,0 @@
-programming
-===========
-
-competitive programming codes
